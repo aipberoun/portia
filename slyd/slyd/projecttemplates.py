@@ -48,6 +48,10 @@ _SCRAPY_TEMPLATE = """\
 
 [settings]
 default = slybot.settings
+
+[deploy:default]
+url = http://localhost:6800
+project = portia-spiders
 """
 
 
